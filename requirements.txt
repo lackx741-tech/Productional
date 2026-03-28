@@ -1,0 +1,22 @@
+# Core API & server
+fastapi>=0.110.0
+uvicorn[standard]>=0.29.0
+
+# Database
+sqlalchemy>=2.0.0
+
+# Data validation
+pydantic>=2.0.0
+
+# Ops dashboard
+streamlit>=1.33.0
+
+# HTTP client (SDK → backend)
+requests>=2.31.0
+
+# Cryptography (SDK signing / delegation)
+cryptography>=42.0.0
+
+# ERC-4337 / Web3 (session keys & on-chain ops)
+web3>=6.0.0
+eth-account>=0.11.0
